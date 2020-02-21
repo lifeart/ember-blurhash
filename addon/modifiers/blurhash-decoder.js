@@ -3,7 +3,7 @@ import { modifier } from 'ember-modifier';
 const canvas = document.createElement("canvas");
 export default modifier(async function blurhashDecoder(element, [hash, width, height, punch, canvasWidth, canvasHeight], ctrl = {}) {
     const { isBlurhashValid, decode } = await import('blurhash');
-    if (!isBlurhashValid(hash)) {
+    if (!isBlurhashValid(hash).result) {
         return;
     }
     const pixels = decode(hash, width || 320, height || 240, punch || 1);
