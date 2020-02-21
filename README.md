@@ -1,7 +1,7 @@
 ember-blurhash
 ==============================================================================
 
-blurhash modifier for ember, allow decode blurhash images and use it as css-variable
+[blurhash](https://blurha.sh/) decoding modifier for ember, allow decode blurhash images and use it as css-variable
 
 
 Compatibility

@@ -1,13 +1,18 @@
 {
   "name": "ember-blurhash",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "blurhash decoding modifier for ember",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "blurhash",
+    "ember-modifier"
   ],
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifeart/ember-blurhash.git"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "Aleksandr Kanunnikov <lifeart92@gmail.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
