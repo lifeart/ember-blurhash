@@ -35,7 +35,7 @@ Usage
 </style>
 
 <div class="blurhash" {{blurhash-decoder 'LEHV6nWB2yk8pyo0adR*.7kCMdnj' 640 480 1}}></div>
-<img src="/heavy-image.png" class="blurhash" {{blurhash-decoder 'LEHV6nWB2yk8pyo0adR*.7kCMdnj' 640 480 1}}></div>
+<img src="/heavy-image.png" class="blurhash" {{blurhash-decoder 'LEHV6nWB2yk8pyo0adR*.7kCMdnj' 640 480}} >
 
 ```
 
