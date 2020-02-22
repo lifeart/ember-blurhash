@@ -32,10 +32,17 @@ Usage
         background-size: cover;
         background-repeat: no-repeat;
     }
+    .b-picture {
+        background-image: var(--blurhash-image);
+        min-width: 640px;
+        min-height: 480px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 </style>
 
 <div class="blurhash" {{blurhash-decoder 'LEHV6nWB2yk8pyo0adR*.7kCMdnj' 640 480 1}}></div>
-<img src="/heavy-image.png" class="blurhash" {{blurhash-decoder 'LEHV6nWB2yk8pyo0adR*.7kCMdnj' 640 480}} >
+<img src="/heavy-image.png" class="b-picture" {{blurhash-decoder 'LEHV6nWB2yk8pyo0adR*.7kCMdnj' 640 480}}>
 
 ```
 
