@@ -26,7 +26,7 @@ Usage
 ```hbs
 <style>
     .blurhash {
-        background-image: var(--blurhash-image);
+        background-image: url(/heavy-image.png), var(--blurhash-image);
         min-width: 640px;
         min-height: 480px;
         background-size: cover;
@@ -35,6 +35,8 @@ Usage
 </style>
 
 <div class="blurhash" {{blurhash-decoder 'LEHV6nWB2yk8pyo0adR*.7kCMdnj' 640 480 1}}></div>
+<img src="/heavy-image.png" class="blurhash" {{blurhash-decoder 'LEHV6nWB2yk8pyo0adR*.7kCMdnj' 640 480 1}}></div>
+
 ```
 
 Positional params:
