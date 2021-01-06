@@ -27,16 +27,16 @@
   },
   "dependencies": {
     "blurhash": "^1.1.3",
-    "ember-modifier": "^1.0.3",
-    "ember-cli-babel": "^7.17.2",
+    "ember-auto-import": "^1.10.1",
+    "ember-cli-babel": "^7.23.0",
     "ember-cli-htmlbars": "^4.2.2",
-    "ember-auto-import": "^1.5.3"
+    "ember-modifier": "^2.1.1"
   },
   "devDependencies": {
     "@ember/optional-features": "^1.3.0",
-    "@glimmer/component": "^1.0.0",
-    "@glimmer/tracking": "^1.0.0",
-    "babel-eslint": "^10.0.3",
+    "@glimmer/component": "^1.0.3",
+    "@glimmer/tracking": "^1.0.3",
+    "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
     "ember-cli": "~3.16.0",
     "ember-cli-dependency-checker": "^3.2.0",
@@ -47,7 +47,7 @@
     "ember-cli-uglify": "^3.0.0",
     "ember-disable-prototype-extensions": "^1.1.3",
     "ember-export-application-global": "^2.0.1",
-    "ember-load-initializers": "^2.1.1",
+    "ember-load-initializers": "^2.1.2",
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-qunit": "^4.6.0",
     "ember-resolver": "^7.0.0",
